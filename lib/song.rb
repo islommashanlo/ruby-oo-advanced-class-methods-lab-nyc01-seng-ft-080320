@@ -36,6 +36,7 @@ class Song
   
   def self.find_or_create_by_name(song_name)
     self.find_by_name(song_name) or self.create_by_name(song_name)
+<<<<<<< HEAD
   end 
   
   def self.alphabetical
@@ -68,4 +69,7 @@ class Song
     self.all.clear
   end
   
+=======
+  end
+>>>>>>> 86bc2c5fa083b9c4d096ec52f6d16f12b7b121c5
 end
